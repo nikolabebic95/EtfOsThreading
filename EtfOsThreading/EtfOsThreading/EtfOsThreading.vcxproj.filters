@@ -20,6 +20,9 @@
     <ClInclude Include="Thread.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="BoundedBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Semaphore.cpp">
@@ -35,6 +38,9 @@
       <Filter>Test Files</Filter>
     </ClCompile>
     <ClCompile Include="SemaphoreTest.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundedBufferTest.cpp">
       <Filter>Test Files</Filter>
     </ClCompile>
   </ItemGroup>
