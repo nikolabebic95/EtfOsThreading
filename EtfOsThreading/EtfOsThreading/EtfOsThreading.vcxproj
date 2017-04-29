@@ -147,11 +147,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="BoundedBuffer.h" />
+    <ClInclude Include="Monitor.h" />
+    <ClInclude Include="Region.h" />
     <ClInclude Include="Semaphore.h" />
     <ClInclude Include="Thread.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BoundedBufferTest.cpp" />
+    <ClCompile Include="RegionTest.cpp" />
     <ClCompile Include="Semaphore.cpp" />
     <ClCompile Include="SemaphoreTest.cpp" />
     <ClCompile Include="Test.cpp" />

@@ -23,6 +23,12 @@
     <ClInclude Include="BoundedBuffer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Monitor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Region.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Semaphore.cpp">
@@ -41,6 +47,9 @@
       <Filter>Test Files</Filter>
     </ClCompile>
     <ClCompile Include="BoundedBufferTest.cpp">
+      <Filter>Test Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegionTest.cpp">
       <Filter>Test Files</Filter>
     </ClCompile>
   </ItemGroup>

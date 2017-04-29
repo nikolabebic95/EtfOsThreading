@@ -5,6 +5,7 @@ namespace osthreadingtest {
 	void testSemaphores();
 	void testThreads();
 	void testBoundedBuffer();
+	void testRegion();
 }
 
 int main() {
@@ -13,4 +14,5 @@ int main() {
 	osthreadingtest::testSemaphores();
 	osthreadingtest::testThreads();
 	osthreadingtest::testBoundedBuffer();
+	osthreadingtest::testRegion();
 }
