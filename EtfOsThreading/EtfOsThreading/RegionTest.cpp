@@ -4,7 +4,7 @@
 
 namespace osthreadingtest {
 
-	static std::mutex mutex;
+	static int object_to_sync_on;
 
 	static const size_t NUM_OF_THREADS_REGION_TEST = 5;
 
@@ -13,7 +13,7 @@ namespace osthreadingtest {
 	}
 
 	static void synchronizedThread(int i) {
-		region (mutex) {
+		region (object_to_sync_on) {
 			std::cout << "Synchronized" << " " << "output" << " " << i << std::endl;
 		}
 	}
