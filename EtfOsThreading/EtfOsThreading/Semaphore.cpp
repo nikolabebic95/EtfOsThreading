@@ -12,11 +12,12 @@ namespace etfosthreading {
 
 	void Semaphore::wait() {
 		std::unique_lock<std::mutex> lock(mtx_);
-		value_--;
 
-		while (value_ < 0) {
+		while (value_ == 0) {
 			cv_.wait(lock);
 		}
+
+		value_--;
 	}
 
 }
